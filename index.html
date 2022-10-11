@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./anima.css">
+    <title>Document</title>
+</head>
+<body onload="playLoader()">
+    <div class="mn">
+        <div class="can"></div>
+        <div class="loade">Loading...</div>
+    </div>
+    <div class="main">
+        <div class="header">
+            <img src="atmosphere.png" alt="image">
+            <p>Weather</p>
+        </div>
+        <div class="inputs">
+            <input type="text" id="inpo" placeholder="Enter city name" required>
+            <button id="but">Search</button>
+        </div>
+        <div class="current">
+            <p id="whichday">Today</p>
+            <p id="location">Kasganj</p>
+            <p id="logo"><img src="rain.png" alt="image" id="image"> <span id="temp">35</span><span id="temp-unit">&#176c</span></p>
+            
+            <p id="candition">cloud</p>
+        </div>
+        <div class="days">
+            <div class="day">
+                <p class="dayName" id="day1" >sunday</p>
+                <p class="image"><img id="im1" src="rain.png" alt="Error"></p>
+                <p ><span class="temps" id="temp1">35</span><span id="temp-units">&#176c</span></p>
+                <p class="candi" id="candi1">cloud</p>
+            </div>
+            <div class="day">
+                <p class="dayName" id="day2">Monday</p>
+                <p class="image"><img id="im2" src="rain.png" alt="Error"></p>
+                <p ><span class="temps" id="temp2">35</span><span id="temp-units">&#176c</span></p>
+                <p class="candi" id="candi2">cloud</p>
+            </div>
+            <div class="day">
+                <p class="dayName" id="day3">tuesday</p>
+                <p class="image"><img id="im3" src="rain.png" alt="Error"></p>
+                <p ><span class="temps" id="temp3">35</span><span id="temp-units">&#176c</span></p>
+                <p class="candi" id="candi3">cloud</p>
+            </div>
+            <div class="day">
+                <p class="dayName" id="day4">wednesday</p>
+                <p class="image"><img id="im4" src="rain.png" alt="Error"></p>
+                <p ><span class="temps" id="temp4">35</span><span id="temp-units">&#176c</span></p>
+                <p class="candi" id="candi4">cloud</p>
+            </div>
+            <div class="day">
+                <p class="dayName" id="day5">thursday</p>
+                <p class="image"><img id="im5" src="rain.png" alt="Error"></p>
+                <p ><span class="temps" id="temp5">35</span><span id="temp-units">&#176c</span></p>
+                <p class="candi" id="candi5">cloud</p>
+            </div>
+        </div>
+        <div class="fotter">
+            <p>© Copyright <b>MyWeather</b>.All Rights Reserved </p>
+                <p> Designed by <b style="color:aqua">Adarsh shakya</b></p>
+        </div>
+    </div>
+    <script src="./JSfile.js"></script>
+</body>
+</html>
