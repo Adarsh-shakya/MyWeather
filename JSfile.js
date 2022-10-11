@@ -45,7 +45,7 @@ const getWeather=async(city)=>
 {
    try 
      {
-        const response=await fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${city }&appid=ef4acb7709a3357ff340b449b9685f73`,{mode:'cors'});
+        const response=await fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=ef4acb7709a3357ff340b449b9685f73`,{mode:'cors'});
         const weatherdate=await response.json();
         console.log(weatherdate);
         const {name}=weatherdate.city;
