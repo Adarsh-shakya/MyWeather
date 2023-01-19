@@ -4,7 +4,7 @@
 }
 body
 {
-    /* background-image: linear-gradient(to top,rgb(8, 8, 28),rgb(141, 231, 231)); */
+    background-image: linear-gradient(to top,rgb(120, 180, 230),rgb(22, 155, 155)); 
 }
 .main
 {
@@ -12,7 +12,6 @@ body
    height: 100vh;
    margin-left: 15%;
    margin-right: 15%;
-   
    border: px solid gray;
 }
 .header
@@ -37,40 +36,50 @@ body
 .inputs
 {
     height: 40px;
-    padding-left: 120px;
-   
-    
+   padding-right: 10px; 
+   border: 1px solid gray;
+   margin-left: 120px;
+   width: 330px;
+   border-radius: 25px;
+   margin-top: 16px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: white;
+        
 }
 #inpo
 {
-    width: 230px;
+    
     height: 25px;
-    position: relative;
-    top: 25px;
+    padding-left: 10px;
+    
     border: 1px solid black;
     border: 2px solid white;
-    padding-left: 10px;
+    
     border-radius: 15px;
+    outline: none;
 }
 #but
 {    
-    position: relative;
-    top: 25px;
-    left: 15px;
-    width: 90px;
-    height: 30px;
-    border-radius: 15px;
+    
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    
 }
 #but:hover
 {
-    color: white;
-    background-color: black;
+    font-size: 30px;
 }
 .current
 {
     height: 275px;
     width: 325px;
+    
     margin: 20px;
+    margin-top: 5px;
     padding: 10px;
     margin-left: 120px;
     border-radius: 10px;
